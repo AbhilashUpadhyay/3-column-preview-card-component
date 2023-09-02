@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+.card-holder{
+    display: flex;
+    width: 900px;
+    height: 75vh;
+    border-radius: 7px;
+    align-items: center;
+    justify-content: center;
+    
+   
+
+}
+.card{
+    display: flex;
+    width: 280px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+ 
+}
+#card1{
+    background-color:  hsl(31, 77%, 52%);
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+   
+}
+#card2{
+    background-color: hsl(184, 100%, 22%) ;
+    
+
+}
+#card3{
+    background-color:  hsl(179, 100%, 13%);
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+   
+}
+.items{
+    width: 80%;
+    height: 95%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    
+}
+img{
+    width: 65px;
+    height: 40px;
+}
+button{
+    width: 130px;
+    height: 6.5vh;
+    border-radius: 35px;
+    outline: none;
+    border: none;
+    color: transparent ;
+    background-color: white;
+    cursor: pointer;
+    font-family: 'Lexend Deca', sans-serif;
+}
+h1{
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+}  
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.5rem;
+    font-family: 'Lexend Deca', sans-serif;
+}
+#btn1{
+    color: hsl(31, 77%, 52%);
+}
+#btn2{
+    color: hsl(184, 100%, 22%);
+}
+#btn3{
+    color:hsl(179, 100%, 13%) ;
+}
+@media screen and (max-width:600px){
+    .card-holder{ 
+        height: 150vh;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+    
+    }
+    .card{
+        margin: 5px;
+        width: 85%;
+        height: 33%;
+        border-radius: 8px;
+    }
+    .container{
+        height: 150vh;
+    }
+    
+
+
+}
